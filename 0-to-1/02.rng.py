@@ -37,3 +37,15 @@ print(f"random int from {a} to {b} -> {rnd.randrange(a, b)}\n")
 # random number with 8 bits
 rnd.seed(s)
 print(f"rnd.getrandbits(8) is -> {rnd.getrandbits(8)}\n")
+
+#using list comprehension + randint()
+rnd.seed(s)
+sequence = [rnd.randint(a, b) for x in range(10)]
+print(f"random sequence with duplicate -> {sequence}")
+print(f"random choice from above sequence -> {rnd.choice(sequence)}\n")
+
+sequence = rnd.sample(range(1,11), 10)
+print(f"random sequence with no duplicate -> {sequence}")
+print(f"random choice from above sequence -> {rnd.choice(sequence)}\n")
+
+
