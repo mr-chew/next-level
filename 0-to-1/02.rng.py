@@ -25,5 +25,15 @@ print(f"random int from {a} to {b} -> {rnd.randint(a, b)}")
 rnd.setstate(state)
 print(f"random int from {a} to {b} -> {rnd.randint(a, b)}")
 print(f"random int from {a} to {b} -> {rnd.randint(a, b)}")
-print(f"random int from {a} to {b} -> {rnd.randint(a, b)}")
+print(f"random int from {a} to {b} -> {rnd.randint(a, b)}\n")
 
+# randint() vs randrange() to equivalent to
+# randrange (a, b+1)  vs randrange (a, b)
+rnd.seed(s)
+print(f"random int from {a} to {b} -> {rnd.randrange(a, b)}")
+print(f"random int from {a} to {b} -> {rnd.randrange(a, b)}")
+print(f"random int from {a} to {b} -> {rnd.randrange(a, b)}\n")
+
+# random number with 8 bits
+rnd.seed(s)
+print(f"rnd.getrandbits(8) is -> {rnd.getrandbits(8)}\n")
