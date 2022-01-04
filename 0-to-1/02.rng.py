@@ -48,4 +48,3 @@ sequence = rnd.sample(range(1,11), 10)
 print(f"random sequence with no duplicate -> {sequence}")
 print(f"random choice from above sequence -> {rnd.choice(sequence)}\n")
 
-
