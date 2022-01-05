@@ -2,7 +2,7 @@ import json
 
 def add_contact(contact, filename):
     with open(filename, "a") as f:
-        json.dump(contact, f)
+        json.dump(contact, f, indent=2)
         
 print(f"Adding contacts...")        
 name = input("Name please ")
