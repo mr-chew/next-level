@@ -1,1 +1,9 @@
-{"Name": "john doe", "Phone": "12345", "Email": "no@spam.pls"}{"Name": "jane doe", "Phone": "312", "Email": "pls.no@sp.am"}
+{
+  "Name": "aaa",
+  "Phone": "111",
+  "Email": "aaa@email"
+}{
+  "Name": "bbb",
+  "Phone": "222",
+  "Email": "bbb@email"
+}
