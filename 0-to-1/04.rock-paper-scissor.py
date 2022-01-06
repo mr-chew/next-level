@@ -1,5 +1,6 @@
 import random
 
+result = [['Tie', 'Human win', 'Computer win'], ['Computer win', 'Tie', 'Human win'], ['Human win', 'Computer win', 'Tie']]
 dict = {
     0: "rock",
     1: "paper",
@@ -27,8 +28,6 @@ def get_input(prompt):
 
 hc = get_input("Enter 0 for rock, 1 for paper and 2 for scissor ")
 cc = computer_choice()
-
-result = [['Tie', 'Human win', 'Computer win'], ['Computer win', 'Tie', 'Human win'], ['Human win', 'Computer win', 'Tie']]
 
 print(f"computer select {dict[cc]}")
 print(f"u choose {dict[hc]}")
