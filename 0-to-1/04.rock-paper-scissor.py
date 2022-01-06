@@ -1,4 +1,5 @@
 import random
+from array import *
 
 dict = {
     0: "rock",
@@ -8,7 +9,8 @@ dict = {
 
 def computer_choice():
     num = random.randint(0, 2)
-    return dict[num]
+    return num
+    # return dict[num]
 
 def get_input(prompt):
     while True:
@@ -25,7 +27,11 @@ def get_input(prompt):
             break
     return value
 
-human_choice = get_input("Enter 0 for rock, 1 for paper and 2 for scissor ")
-print(f"u choose {dict[human_choice]}")
-print(f"computer select {computer_choice()}")
+hc = get_input("Enter 0 for rock, 1 for paper and 2 for scissor ")
+cc = computer_choice()
 
+result = [['Tie', 'Human win', 'Computer win'], ['Computer win', 'Tie', 'Human win'], ['Human win', 'Computer win', 'Tie']]
+
+print(f"computer select {dict[cc]}")
+print(f"u choose {dict[hc]}")
+print(f"-->> {result[cc][hc]} <<--")
