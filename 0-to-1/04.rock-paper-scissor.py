@@ -1,5 +1,4 @@
 import random
-from array import *
 
 dict = {
     0: "rock",
@@ -10,7 +9,6 @@ dict = {
 def computer_choice():
     num = random.randint(0, 2)
     return num
-    # return dict[num]
 
 def get_input(prompt):
     while True:
