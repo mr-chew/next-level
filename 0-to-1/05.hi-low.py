@@ -4,7 +4,7 @@ def computer_choice():
     num = random.randint(1, 100)
     return num
 
-# to reuse some of rock paper scissor while loop
+# to reuse rock paper scissor validation
 def get_input(prompt):
     while True:
         try:
