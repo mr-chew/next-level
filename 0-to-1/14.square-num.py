@@ -5,5 +5,5 @@ def is_square(num):
         return True
     return False
 
-print (is_square(144))
-print (is_square(123))
+x = int(input("Enter a number to check if it is Square -> "))
+print (is_square(x))
