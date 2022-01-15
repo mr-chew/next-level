@@ -1,9 +1,17 @@
 {
-  "Name": "aaa",
-  "Phone": "111",
-  "Email": "aaa@email"
+  "employees": [
+    {
+      "Name": "aaa",
+      "Phone": "111",
+      "Email": "aaa@zxcvb"
+    }
+  ]
 }{
-  "Name": "bbb",
-  "Phone": "222",
-  "Email": "bbb@email"
+  "employees": [
+    {
+      "Name": "bbb",
+      "Phone": "222",
+      "Email": "bbb@zxcvb"
+    }
+  ]
 }

@@ -9,9 +9,13 @@ name = input("Name please ")
 phone = input("mobile no. ")
 email = input("Email ")
 contact = {
-    "Name": name,
-    "Phone": phone,
-    "Email": email
+    "employees" : [
+        {
+            "Name": name,
+            "Phone": phone,
+            "Email": email
+        }
+    ]
 }
 
 add_contact(contact, "03.contact.json")
