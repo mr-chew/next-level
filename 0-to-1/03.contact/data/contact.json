@@ -1,20 +1,14 @@
-[
-  {
-    "user": [
-      {
-        "Name": "aaa",
-        "Phone": "111",
-        "Email": "aaa@xyz"
-      }
-    ]
-  },
-  {
-    "user": [
-      {
-        "Name": "bbb",
-        "Phone": "222",
-        "Email": "bbb@zxc.xyz"
-      }
-    ]
-  }
-]
+{
+  "user": [
+    {
+      "Name": "aaa",
+      "Phone": "111",
+      "Email": "aaa@@"
+    },
+    {
+      "Name": "bbb",
+      "Phone": "222",
+      "Email": "bbb@zz"
+    }
+  ]
+}
