@@ -35,6 +35,6 @@ def generate_cards():
             cards.append(_card)
     return cards
     
-cards = generate_cards()
-for card in cards:
-    print(card.value, card.suit)
+# cards = generate_cards()
+# for card in cards:
+#     print(card.value, card.suit)
